@@ -8,12 +8,13 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.collectAsState
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.lifecycleScope
 import androidx.lifecycle.repeatOnLifecycle
+import com.jess.c23gmykm.ui.logic.LogicViewModel
+import com.jess.c23gmykm.ui.logic.MyLogic
 import com.jess.c23gmykm.ui.theme.C23GmyKmTheme
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.collectLatest
@@ -32,8 +33,8 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    // Greeting()
-                    MyLogic(viewModel)
+                   //  Greeting()
+                    //MyLogic(viewModel)
                 }
             }
         }
@@ -42,7 +43,6 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun Greeting(modifier: Modifier = Modifier) {
-    // MyLogic(viewModel)
 }
 
 @Preview(showBackground = true)

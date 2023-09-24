@@ -1,4 +1,4 @@
-package com.jess.c23gmykm
+package com.jess.c23gmykm.ui.logic
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize

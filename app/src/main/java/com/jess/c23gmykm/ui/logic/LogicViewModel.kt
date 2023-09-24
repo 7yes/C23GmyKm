@@ -1,4 +1,4 @@
-package com.jess.c23gmykm
+package com.jess.c23gmykm.ui.logic
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
